@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ZyngaProblem
+namespace TicTacToeZ
 {
     
     class Program

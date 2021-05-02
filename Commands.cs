@@ -1,4 +1,4 @@
-namespace ZyngaProblem
+namespace TicTacToeZ
 {
     enum Commands
     {

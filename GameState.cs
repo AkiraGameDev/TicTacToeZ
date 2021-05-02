@@ -1,4 +1,4 @@
-namespace ZyngaProblem
+namespace TicTacToeZ
 {
     //extensible for other game states, like an options menu, etc.
     enum MenuState

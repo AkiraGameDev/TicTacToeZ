@@ -1,4 +1,4 @@
-namespace ZyngaProblem
+namespace TicTacToeZ
 {
     //represents and manipulates the board
     public class GameState

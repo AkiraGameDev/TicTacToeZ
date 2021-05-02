@@ -1,4 +1,4 @@
-namespace ZyngaProblem
+namespace TicTacToeZ
 {
     //simply tells us the state of each tile on the board
     public enum TileState
