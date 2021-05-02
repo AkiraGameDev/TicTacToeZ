@@ -1,2 +1,2 @@
 # TicTacToe
- A simple tictactoe
+ A simple tictactoe game :3
