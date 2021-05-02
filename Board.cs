@@ -272,19 +272,19 @@ namespace ZyngaProblem
                     //if we have 2 pieces in a given col, take/block the win
                     if(aiValue >= 2 || playerValue >= 2)
                     {
-                        if(board [j, 0] == TileState.EMPTY)
+                        if(board [0, i] == TileState.EMPTY)
                         { 
-                            board [j, 0] = aiPieces; 
+                            board [0, i] = aiPieces; 
                             return true;
                         }
-                        else if(board [j, 1] == TileState.EMPTY) 
+                        else if(board [1, i] == TileState.EMPTY) 
                         {
-                            board [j, 1] = aiPieces;
+                            board [1, i] = aiPieces;
                             return true;
                         }
-                        else if(board [j, 2] == TileState.EMPTY)
+                        else if(board [2, i] == TileState.EMPTY)
                         {
-                            board [j, 2] = aiPieces;
+                            board [2, i] = aiPieces;
                             return true;
                         } 
                     }
